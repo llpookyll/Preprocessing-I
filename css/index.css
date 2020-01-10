@@ -86,7 +86,7 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 62.5%;
   font: inherit;
   vertical-align: baseline;
 }
@@ -137,19 +137,47 @@ body {
 .container {
   margin: auto 23%;
 }
+.container h1 {
+  font-size: 2rem;
+}
+.container h2 {
+  font-size: 1.6rem;
+}
+.container button {
+  font-size: 1rem;
+  color: white;
+  background-color: gray;
+  border: 0;
+  padding: 1.5% 2%;
+  border-radius: 2.5px;
+}
 nav {
   display: flex;
   justify-content: flex-end;
+  padding: 3% 0;
+}
+nav a {
+  text-decoration: none;
+  margin-left: 3%;
+  color: black;
 }
 .header-box {
   display: flex;
   flex-direction: column;
-  background: #E9ECEF;
-  padding: 5% 2.5%;
+  background: #EAECEF;
+  padding: 10% 3.5%;
+  border-radius: 12px;
+}
+.header-box img {
+  border-radius: 12px;
+}
+.head-box2 {
+  border-top: 1px solid lightgray;
 }
 .about {
   display: flex;
   justify-content: space-between;
+  margin: 5% auto;
 }
 .about-box1 {
   display: flex;
@@ -173,6 +201,12 @@ nav {
   border-top: 1px solid gray;
   border-left: 1px solid gray;
   border-right: 1px solid gray;
+}
+.work-history {
+  margin-bottom: 5%;
+}
+.work-history h3 {
+  font-weight: bold;
 }
 .about-box2 :nth-child(6) {
   border-bottom: 1px solid gray;
@@ -198,4 +232,14 @@ nav {
 }
 .history-box .tech-used {
   width: 22%;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: darkgray;
+  color: white;
+  font-size: 0.8rem;
+}
+footer p {
+  margin: 2.5%;
 }
